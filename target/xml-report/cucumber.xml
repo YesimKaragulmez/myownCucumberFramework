@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="34.918">
+<testcase classname="Explicit wait demo" name="Explicit wait example" time="34.252">
+<system-out><![CDATA[Given user is on the demo page..............................................passed
+And user clicks on the Start button.........................................passed
+And user waits until the page loads.........................................passed
+Then verify the Hello World! text is visible................................passed
+]]></system-out>
+</testcase>
+</testsuite>

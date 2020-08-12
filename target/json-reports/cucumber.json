@@ -1,0 +1,108 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-07T21:30:22.016Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10013000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Explicit wait example",
+        "description": "",
+        "id": "explicit-wait-demo;explicit-wait-example",
+        "after": [
+          {
+            "result": {
+              "duration": 1070000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17730000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the demo page",
+            "match": {
+              "location": "stepdefinitions.ExplicitWaitStepDefs.user_is_on_the_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 111000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on the Start button",
+            "match": {
+              "location": "stepdefinitions.ExplicitWaitStepDefs.user_clicks_on_the_Start_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5158000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user waits until the page loads",
+            "match": {
+              "location": "stepdefinitions.ExplicitWaitStepDefs.user_waits_until_the_page_loads()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify the Hello World! text is visible",
+            "match": {
+              "location": "stepdefinitions.ExplicitWaitStepDefs.verify_the_Hello_World_text_is_visible()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Explicit wait demo",
+    "description": "",
+    "id": "explicit-wait-demo",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/explicit%20wait%20demo.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
